@@ -28,7 +28,8 @@ if not ipport:
     ipport = "localhost:5700"
 else:
     ipport = ipport.lstrip("http://").rstrip("/")
-sub_str = os.getenv("RES_SUB", "okyyds_yydspure_master")
+sub_str = os.getenv("RES_SUB", "TheBear888_yyds")
+sub_str = os.getenv("RES_SUB", "Zy143L_wskey")
 sub_list = sub_str.split("&")
 res_only = os.getenv("RES_ONLY", True)
 headers = {
